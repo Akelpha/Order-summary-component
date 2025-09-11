@@ -3,5 +3,10 @@
     "@tailwindcss/postcss": "^4.1.13",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13"
+  },
+  "scripts": {
+    "dev": "npm run dev",
+    "build:css": "tailwindcss -i ./style.css -o ./output.css --minify"
   }
+  
 }
