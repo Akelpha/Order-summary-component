@@ -7,11 +7,11 @@
     --color-gray-600: hsl(224, 23%, 55%);
     --color-blue-950: hsl(223, 47%, 23%);
 }
-
-/* Example usage:
-background-color: var(--color-blue-100);
-color: var(--color-blue-950);
-*/
+*{
+box-sizing: border-box;
+margin: auto;
+padding: auto;
+}
 body{
 background: url(images/pattern-background-desktop.svg) no-repeat
 var(--color-blue-50);
@@ -22,13 +22,12 @@ align-items: center;
 flex-direction: column;
 
 }
-h1,h2,h3,h4,p{
-margin: auto;
-padding: auto;
+:hover{
+cursor: pointer;
 }
 /* Main space */
 main{
-margin: 55px;
+margin: 45px;
 }
 .illustration-hero{
 width: 350px;
@@ -47,12 +46,13 @@ border-bottom-right-radius:35px;
     text-align: center;
     color: hsl(223, 47%, 23%);
     padding-block: 15px;
+    font-weight: 900;
 }
 .order-summary p{
     text-align: center;
-    padding-inline: 10%;
+    padding-inline: 9%;
     font-size: 16px;
-    color: hsl(223, 47%, 23%);
+    color: hsl(224, 23%, 55%);
 }
 .annual-plan {
     background-color:hsl(225, 100%, 98%) ;
@@ -69,7 +69,6 @@ border-bottom-right-radius:35px;
     width: 15%;
 }
 .annual-plan section{
-    
     margin-right: 35px;
 }
 .annual-plan span {
@@ -81,36 +80,42 @@ border-bottom-right-radius:35px;
     color: hsl(224, 23%, 55%);
     text-decoration: none;
 }
-/* .annual-plan section:first {
-    font-weight: lighter;
-} */
+.annual-plan section h5 {
+    font-weight: 300;
+    color: hsl(224, 23%, 55%);
+}
+ button{
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+ }
 .proceed{
     margin-inline: 35px;
     padding: 15px;
     width:80%;
     border: none;
     color: white;
-    font-weight:500;
     border-radius: 10px;
     background-color: hsl(245, 75%, 52%);
-    box-shadow: 11px hsl(228, 45%, 44%) ;
+    box-shadow: -5px 10px 10px var(--color-blue-100);
+    
  }
 .proceed:hover{
     background-color:hsl(224, 23%, 55%)
  }
  .cancel{
-   
     border: none;
     background: none;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 30px;
     color: hsl(224, 23%, 55%);
-    font-weight:500;
     text-align: center;
  }
+
  .cancel:hover{
     color:hsl(223, 47%, 23%);
+    font-weight: 900;
+   
  }
 /* Footer */
 footer{
