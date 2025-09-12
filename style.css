@@ -44,7 +44,7 @@ border-bottom-right-radius:35px;
 }
 .order-summary h1{
     text-align: center;
-    color: hsl(223, 47%, 23%);
+    color: var(--color-blue-950);
     padding-block: 15px;
     font-weight: 900;
 }
@@ -52,7 +52,7 @@ border-bottom-right-radius:35px;
     text-align: center;
     padding-inline: 9%;
     font-size: 16px;
-    color: hsl(224, 23%, 55%);
+    color: var(--color-gray-600);
 }
 .annual-plan {
     background-color:hsl(225, 100%, 98%) ;
@@ -73,16 +73,16 @@ border-bottom-right-radius:35px;
 }
 .annual-plan span {
    text-decoration: underline; 
-   color: hsl(245, 75%, 52%);
+   color: var(--color-blue-700);
    font-size: small;
 }
 .annual-plan span:hover{
-    color: hsl(224, 23%, 55%);
+    color: #766cf1;
     text-decoration: none;
 }
 .annual-plan section h5 {
     font-weight: 300;
-    color: hsl(224, 23%, 55%);
+    color: var(--color-gray-600);
 }
  button{
 font-family: 'Red Hat Display', sans-serif;
@@ -95,12 +95,12 @@ font-weight: 700;
     border: none;
     color: white;
     border-radius: 10px;
-    background-color: hsl(245, 75%, 52%);
+    background-color: var(--color-blue-700);
     box-shadow: -5px 10px 10px var(--color-blue-100);
     
  }
 .proceed:hover{
-    background-color:hsl(224, 23%, 55%)
+    background-color:#766cf1;
  }
  .cancel{
     border: none;
@@ -113,7 +113,7 @@ font-weight: 700;
  }
 
  .cancel:hover{
-    color:hsl(223, 47%, 23%);
+    color:var(--color-blue-950);
     font-weight: 900;
    
  }
